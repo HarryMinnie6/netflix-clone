@@ -1,5 +1,9 @@
 .row {
     margin : 0 0 20px 0;
+    color: white;
+}
+.row > h1{
+  padding: 0 0 0 20px;
 }
 .row__posters {
   display: flex;

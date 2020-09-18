@@ -4,11 +4,12 @@ import requests from "./requests";
  
 import Row from "./components/row/Row";
 import Banner from './components/banner/Banner'
+import NavBar from "./components/navbar/NavBar";
 
 function App() {
   return (
     <div className="app">
-
+    <NavBar />
     <Banner />
       <Row
         title="NETFLIX ORIGINALS"
